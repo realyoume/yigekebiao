@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     
-    <img alt="Vue logo" src="./assets/logo.png">
+    <MyEmoji/>
     <Hello/>
   </div>
 </template>
@@ -9,11 +9,13 @@
 <script>
 
 import Hello from './components/Hello.vue'
+import MyEmoji from '@/components/MyEmoji'
 
 export default {
   name: 'App',
   components: {
-    Hello
+    Hello,
+    MyEmoji
   }
 }
 
